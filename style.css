@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://www.nasdaq.com/sites/acquia.prod/files/2020/11/09/cryptoLP%20banner%203%20jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#name {
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: tan;
+    background-color: rgba(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 45%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0);
+}
+
+.nav-list {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background {
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 50%;
+}
+
+.firstSection {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.firstHalf {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    padding-right: 10px;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 4px solid wheat;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 10px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.178);
+    color: rgb(179, 245, 218);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+.sectionTag {
+    color: white;
+}
+
+.sectionSubTag {
+    color: white;
+}
+
+.paras {
+    width: 30%;
+    padding: 20px;
+}
+
+.secRight {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 0px;
+}
+
+.imgFluid {
+    width: 231px;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid white;
+    border-radius: 30px;
+}
